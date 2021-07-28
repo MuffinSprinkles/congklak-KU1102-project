@@ -1,0 +1,12 @@
+~ BUG ~
+
+1. [solved] Saat memilih lubang yang berisi 1, program tidak bisa membedakan apakah harus 
+            menembak atau mengambil batu
+	note	: Harusnya mengambil batu, menembak dilakukan apabila telah memindahkan batu.
+2. [solved] Saat player 2, batu habis di lubang terakhir sebelum lumbung, tidak menambahkan 
+            batu pada lumbung
+	note 	: Harusnya menambahkan 1 butir pada lumbung. 
+3. Saat player tidak sengaja memilih lubang yang berisi 0 batu, game akan tetap memindahkan
+   batu
+	note 	: Seharusnya diberi error message atau info kepada player untuk memilih 
+                  kembali lubang
